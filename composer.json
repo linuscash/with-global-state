@@ -1,0 +1,25 @@
+{
+    "name": "linuscash/with-global-state",
+    "description": "a simple way to make global state clear in order to bring it back under control",
+    "type": "library",
+    "license": "MIT",
+    "scripts": {
+        "test:unit": "kahlan --spec=src"
+    },
+    "autoload": {
+        "files": [
+            "src/with-global-state.php"
+        ]
+    },
+    "authors": [
+        {
+            "name": "Linus Cash",
+            "email": "contact@linuscash.co.uk"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {},
+    "require-dev": {
+        "kahlan/kahlan": "^4.1"
+    }
+}
